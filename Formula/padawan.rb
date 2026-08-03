@@ -2,7 +2,7 @@ class Padawan < Formula
   desc "Inspect and automate Apple game controllers from the command line"
   homepage "https://github.com/McNight/padawan-cli"
   url "https://github.com/McNight/padawan-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "8a9aade4a9ccbc723eb112df4104f8160b2185bba75763e3ed3150ed958de717"
+  sha256 "f3e1b72876dea01510e444aa16f29f3222c43924c915d4200062c85a2166d7f9"
   license "MIT"
 
   depends_on :macos
