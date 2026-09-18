@@ -1,10 +1,10 @@
 cask "bifrost" do
-  version "0.2.2"
-  sha256 "add7146311d55367c34981c5767456a24a1839b06ec85788f7009c4c09faf69a"
+  version "0.2.3"
+  sha256 "6f65e0d11bf6ac8f4d49ffae3e97f6fe51b675ae56f4c3c4bcc179365288a7a6"
 
   # Recipients supply the shared read-only download token; never embed it here.
   # Homebrew preserves this standard variable while resolving GitHub redirects.
-  url "https://api.github.com/repos/McNight/bifrost-releases/releases/assets/568075512",
+  url "https://api.github.com/repos/McNight/bifrost-releases/releases/assets/572664402",
       header: [
         "Accept: application/octet-stream",
         "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN")}",
