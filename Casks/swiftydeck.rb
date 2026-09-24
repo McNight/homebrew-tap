@@ -1,9 +1,9 @@
 cask "swiftydeck" do
-  version "0.2.0"
-  sha256 "abbd5318bd340c976ae53f14af6b35606ccbae654cd08660e3699ef9c7799146"
+  version "0.2.1"
+  sha256 "5466a3d72b274e85741d613a0a17ce18bd47ffb462584281512481b1d4c0b6f8"
 
   # Recipients supply the shared read-only token; never embed it here.
-  url "https://api.github.com/repos/McNight/swiftydeck-releases/releases/assets/586069653",
+  url "https://api.github.com/repos/McNight/swiftydeck-releases/releases/assets/586298783",
       header: [
         "Accept: application/octet-stream",
         "Authorization: Bearer #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN")}",
